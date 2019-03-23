@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EB3F65224658AC002AFD1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F64224658AC002AFD1D /* AppDelegate.swift */; };
+		04EB3F67224658AC002AFD1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F66224658AC002AFD1D /* ViewController.swift */; };
+		04EB3F6A224658AC002AFD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3F68224658AC002AFD1D /* Main.storyboard */; };
+		04EB3F6D224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F6B224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld */; };
+		04EB3F6F224658AD002AFD1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3F6E224658AD002AFD1D /* Assets.xcassets */; };
+		04EB3F72224658AD002AFD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3F70224658AD002AFD1D /* LaunchScreen.storyboard */; };
+		04EB3F7D224658AD002AFD1D /* Notepad_AbservTech_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F7C224658AD002AFD1D /* Notepad_AbservTech_Tests.swift */; };
+		04EB3F88224658AD002AFD1D /* Notepad_AbservTech_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F87224658AD002AFD1D /* Notepad_AbservTech_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EB3F79224658AD002AFD1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EB3F59224658AC002AFD1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB3F60224658AC002AFD1D;
+			remoteInfo = "Notepad(AbservTech)";
+		};
+		04EB3F84224658AD002AFD1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EB3F59224658AC002AFD1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB3F60224658AC002AFD1D;
+			remoteInfo = "Notepad(AbservTech)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EB3F61224658AC002AFD1D /* Notepad(AbservTech).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notepad(AbservTech).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB3F64224658AC002AFD1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EB3F66224658AC002AFD1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EB3F69224658AC002AFD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EB3F6C224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notepad_AbservTech_.xcdatamodel; sourceTree = "<group>"; };
+		04EB3F6E224658AD002AFD1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EB3F71224658AD002AFD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EB3F73224658AD002AFD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB3F78224658AD002AFD1D /* Notepad(AbservTech)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notepad(AbservTech)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB3F7C224658AD002AFD1D /* Notepad_AbservTech_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notepad_AbservTech_Tests.swift; sourceTree = "<group>"; };
+		04EB3F7E224658AD002AFD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB3F83224658AD002AFD1D /* Notepad(AbservTech)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notepad(AbservTech)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB3F87224658AD002AFD1D /* Notepad_AbservTech_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notepad_AbservTech_UITests.swift; sourceTree = "<group>"; };
+		04EB3F89224658AD002AFD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EB3F5E224658AC002AFD1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F75224658AD002AFD1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F80224658AD002AFD1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EB3F58224658AC002AFD1D = {
+			isa = PBXGroup;
+			children = (
+				04EB3F63224658AC002AFD1D /* Notepad(AbservTech) */,
+				04EB3F7B224658AD002AFD1D /* Notepad(AbservTech)Tests */,
+				04EB3F86224658AD002AFD1D /* Notepad(AbservTech)UITests */,
+				04EB3F62224658AC002AFD1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EB3F62224658AC002AFD1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F61224658AC002AFD1D /* Notepad(AbservTech).app */,
+				04EB3F78224658AD002AFD1D /* Notepad(AbservTech)Tests.xctest */,
+				04EB3F83224658AD002AFD1D /* Notepad(AbservTech)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EB3F63224658AC002AFD1D /* Notepad(AbservTech) */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F64224658AC002AFD1D /* AppDelegate.swift */,
+				04EB3F66224658AC002AFD1D /* ViewController.swift */,
+				04EB3F68224658AC002AFD1D /* Main.storyboard */,
+				04EB3F6E224658AD002AFD1D /* Assets.xcassets */,
+				04EB3F70224658AD002AFD1D /* LaunchScreen.storyboard */,
+				04EB3F73224658AD002AFD1D /* Info.plist */,
+				04EB3F6B224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld */,
+			);
+			path = "Notepad(AbservTech)";
+			sourceTree = "<group>";
+		};
+		04EB3F7B224658AD002AFD1D /* Notepad(AbservTech)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F7C224658AD002AFD1D /* Notepad_AbservTech_Tests.swift */,
+				04EB3F7E224658AD002AFD1D /* Info.plist */,
+			);
+			path = "Notepad(AbservTech)Tests";
+			sourceTree = "<group>";
+		};
+		04EB3F86224658AD002AFD1D /* Notepad(AbservTech)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F87224658AD002AFD1D /* Notepad_AbservTech_UITests.swift */,
+				04EB3F89224658AD002AFD1D /* Info.plist */,
+			);
+			path = "Notepad(AbservTech)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EB3F60224658AC002AFD1D /* Notepad(AbservTech) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB3F8C224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)" */;
+			buildPhases = (
+				04EB3F5D224658AC002AFD1D /* Sources */,
+				04EB3F5E224658AC002AFD1D /* Frameworks */,
+				04EB3F5F224658AC002AFD1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notepad(AbservTech)";
+			productName = "Notepad(AbservTech)";
+			productReference = 04EB3F61224658AC002AFD1D /* Notepad(AbservTech).app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EB3F77224658AD002AFD1D /* Notepad(AbservTech)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB3F8F224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)Tests" */;
+			buildPhases = (
+				04EB3F74224658AD002AFD1D /* Sources */,
+				04EB3F75224658AD002AFD1D /* Frameworks */,
+				04EB3F76224658AD002AFD1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EB3F7A224658AD002AFD1D /* PBXTargetDependency */,
+			);
+			name = "Notepad(AbservTech)Tests";
+			productName = "Notepad(AbservTech)Tests";
+			productReference = 04EB3F78224658AD002AFD1D /* Notepad(AbservTech)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EB3F82224658AD002AFD1D /* Notepad(AbservTech)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB3F92224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)UITests" */;
+			buildPhases = (
+				04EB3F7F224658AD002AFD1D /* Sources */,
+				04EB3F80224658AD002AFD1D /* Frameworks */,
+				04EB3F81224658AD002AFD1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EB3F85224658AD002AFD1D /* PBXTargetDependency */,
+			);
+			name = "Notepad(AbservTech)UITests";
+			productName = "Notepad(AbservTech)UITests";
+			productReference = 04EB3F83224658AD002AFD1D /* Notepad(AbservTech)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EB3F59224658AC002AFD1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					04EB3F60224658AC002AFD1D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04EB3F77224658AD002AFD1D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04EB3F60224658AC002AFD1D;
+					};
+					04EB3F82224658AD002AFD1D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04EB3F60224658AC002AFD1D;
+					};
+				};
+			};
+			buildConfigurationList = 04EB3F5C224658AC002AFD1D /* Build configuration list for PBXProject "Notepad(AbservTech)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EB3F58224658AC002AFD1D;
+			productRefGroup = 04EB3F62224658AC002AFD1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EB3F60224658AC002AFD1D /* Notepad(AbservTech) */,
+				04EB3F77224658AD002AFD1D /* Notepad(AbservTech)Tests */,
+				04EB3F82224658AD002AFD1D /* Notepad(AbservTech)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EB3F5F224658AC002AFD1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3F72224658AD002AFD1D /* LaunchScreen.storyboard in Resources */,
+				04EB3F6F224658AD002AFD1D /* Assets.xcassets in Resources */,
+				04EB3F6A224658AC002AFD1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F76224658AD002AFD1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F81224658AD002AFD1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EB3F5D224658AC002AFD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3F67224658AC002AFD1D /* ViewController.swift in Sources */,
+				04EB3F65224658AC002AFD1D /* AppDelegate.swift in Sources */,
+				04EB3F6D224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F74224658AD002AFD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3F7D224658AD002AFD1D /* Notepad_AbservTech_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3F7F224658AD002AFD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3F88224658AD002AFD1D /* Notepad_AbservTech_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EB3F7A224658AD002AFD1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EB3F60224658AC002AFD1D /* Notepad(AbservTech) */;
+			targetProxy = 04EB3F79224658AD002AFD1D /* PBXContainerItemProxy */;
+		};
+		04EB3F85224658AD002AFD1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EB3F60224658AC002AFD1D /* Notepad(AbservTech) */;
+			targetProxy = 04EB3F84224658AD002AFD1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EB3F68224658AC002AFD1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB3F69224658AC002AFD1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EB3F70224658AD002AFD1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB3F71224658AD002AFD1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EB3F8A224658AD002AFD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EB3F8B224658AD002AFD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EB3F8D224658AD002AFD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EB3F8E224658AD002AFD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04EB3F90224658AD002AFD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notepad(AbservTech).app/Notepad(AbservTech)";
+			};
+			name = Debug;
+		};
+		04EB3F91224658AD002AFD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notepad(AbservTech).app/Notepad(AbservTech)";
+			};
+			name = Release;
+		};
+		04EB3F93224658AD002AFD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Notepad(AbservTech)";
+			};
+			name = Debug;
+		};
+		04EB3F94224658AD002AFD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notepad(AbservTech)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek.Notepad-AbservTech-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Notepad(AbservTech)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EB3F5C224658AC002AFD1D /* Build configuration list for PBXProject "Notepad(AbservTech)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3F8A224658AD002AFD1D /* Debug */,
+				04EB3F8B224658AD002AFD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB3F8C224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3F8D224658AD002AFD1D /* Debug */,
+				04EB3F8E224658AD002AFD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB3F8F224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3F90224658AD002AFD1D /* Debug */,
+				04EB3F91224658AD002AFD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB3F92224658AD002AFD1D /* Build configuration list for PBXNativeTarget "Notepad(AbservTech)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3F93224658AD002AFD1D /* Debug */,
+				04EB3F94224658AD002AFD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04EB3F6B224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04EB3F6C224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodel */,
+			);
+			currentVersion = 04EB3F6C224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodel */;
+			path = Notepad_AbservTech_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04EB3F59224658AC002AFD1D /* Project object */;
+}
