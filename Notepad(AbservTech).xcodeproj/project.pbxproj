@@ -15,6 +15,8 @@
 		04EB3F72224658AD002AFD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3F70224658AD002AFD1D /* LaunchScreen.storyboard */; };
 		04EB3F7D224658AD002AFD1D /* Notepad_AbservTech_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F7C224658AD002AFD1D /* Notepad_AbservTech_Tests.swift */; };
 		04EB3F88224658AD002AFD1D /* Notepad_AbservTech_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F87224658AD002AFD1D /* Notepad_AbservTech_UITests.swift */; };
+		04EB3F9A22465E20002AFD1D /* AddNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F9922465E20002AFD1D /* AddNotesViewController.swift */; };
+		04EB3F9C22467AA9002AFD1D /* EditNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3F9B22467AA9002AFD1D /* EditNotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04EB3F83224658AD002AFD1D /* Notepad(AbservTech)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notepad(AbservTech)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB3F87224658AD002AFD1D /* Notepad_AbservTech_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notepad_AbservTech_UITests.swift; sourceTree = "<group>"; };
 		04EB3F89224658AD002AFD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB3F9922465E20002AFD1D /* AddNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotesViewController.swift; sourceTree = "<group>"; };
+		04EB3F9B22467AA9002AFD1D /* EditNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				04EB3F64224658AC002AFD1D /* AppDelegate.swift */,
-				04EB3F66224658AC002AFD1D /* ViewController.swift */,
-				04EB3F68224658AC002AFD1D /* Main.storyboard */,
+				04F9D1182249022300924B8E /*  Controller */,
+				04F9D1192249023F00924B8E /* View */,
 				04EB3F6E224658AD002AFD1D /* Assets.xcassets */,
 				04EB3F70224658AD002AFD1D /* LaunchScreen.storyboard */,
 				04EB3F73224658AD002AFD1D /* Info.plist */,
@@ -126,6 +130,24 @@
 				04EB3F89224658AD002AFD1D /* Info.plist */,
 			);
 			path = "Notepad(AbservTech)UITests";
+			sourceTree = "<group>";
+		};
+		04F9D1182249022300924B8E /*  Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F9B22467AA9002AFD1D /* EditNotesViewController.swift */,
+				04EB3F66224658AC002AFD1D /* ViewController.swift */,
+				04EB3F9922465E20002AFD1D /* AddNotesViewController.swift */,
+			);
+			path = " Controller";
+			sourceTree = "<group>";
+		};
+		04F9D1192249023F00924B8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3F68224658AC002AFD1D /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EB3F67224658AC002AFD1D /* ViewController.swift in Sources */,
+				04EB3F9A22465E20002AFD1D /* AddNotesViewController.swift in Sources */,
+				04EB3F9C22467AA9002AFD1D /* EditNotesViewController.swift in Sources */,
 				04EB3F65224658AC002AFD1D /* AppDelegate.swift in Sources */,
 				04EB3F6D224658AC002AFD1D /* Notepad_AbservTech_.xcdatamodeld in Sources */,
 			);
