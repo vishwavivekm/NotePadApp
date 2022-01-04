@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewWillAppear(_ animated: Bool) {
         fetchData()
-        notesTableView.reloadData()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -137,7 +137,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             print("Data Retrieval Unsuccessful")
         }
         
-        
+        notesTableView.reloadData()
         
     }
     
